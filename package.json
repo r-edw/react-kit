@@ -1,0 +1,23 @@
+{
+  "name": "react-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-edw/react-kit.git"
+  },
+  "author": "r-edw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-edw/react-kit/issues"
+  },
+  "homepage": "https://github.com/r-edw/react-kit#readme",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
+  }
+}
