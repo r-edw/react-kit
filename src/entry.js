@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./js/main.jsx";
+import Main from "./js/main.js";
 
 main();
 
