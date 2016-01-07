@@ -17,5 +17,6 @@ module.exports = {
             { test: /\.scss$/, loader: 'style!css!sass' },
             { test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/ }
         ]
-    }
+    },
+    devtool: 'source-map'
 };

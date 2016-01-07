@@ -15,7 +15,9 @@ module.exports = {
         "semi": [
             2,
             "never"
-        ]
+        ],
+        "no-unused-vars": 1,
+        "react/jsx-uses-react": 1
     },
     "env": {
         "es6": true,
