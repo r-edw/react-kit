@@ -13,9 +13,9 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.css$/, loader: "style!css" },
-            { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel", query: { presets: ['es2015', 'react'] } },
+            { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader", query: { presets: ['es2015', 'react'] } },
             { test: /\.scss$/, loader: 'style!css!sass' },
-            { test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/ }
+            { test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules/ },
         ]
     },
     devtool: 'source-map'

@@ -1,11 +1,10 @@
 import React from 'react'
-import './../css/main.scss'
 
-class Main extends React.Component{
+class Component extends React.Component{
 
     showText() {
         return (
-            <span>Hello From React Component!</span>
+            <span>Hello From Routed Component!</span>
         )
     }
 
@@ -14,4 +13,4 @@ class Main extends React.Component{
     }
 }
 
-export default Main
+export default Component

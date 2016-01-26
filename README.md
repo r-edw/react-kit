@@ -20,4 +20,5 @@ npm i
 
 `npm run dev`
 
-You can then view the result at http://localhost:8080/
+You can then view the result at http://localhost:8080/#/
+You can then view the routed component at http://localhost:8080/#/component
