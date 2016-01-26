@@ -1,5 +1,4 @@
 import React from 'react'
-import './../css/main.scss'
 
 class Main extends React.Component{
 

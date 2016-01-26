@@ -6,13 +6,16 @@ import { Router, Route } from 'react-router'
 import Main from './js/main.js'
 import Component from './js/components/component.js'
 
+//Styles
+import './css/main.scss'
+
 main()
 
 function main() {
     ReactDOM.render(
-      <Router>
-          <Route path="/" component={Main} />
-          <Route path="/component" component={Component} />
+    <Router>
+        <Route path="/" component={Main} />
+        <Route path="component" component={Component} />
       </Router>,
     document.getElementById('content'))
 }
