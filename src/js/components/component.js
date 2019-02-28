@@ -1,16 +1,7 @@
 import React from 'react'
 
-class Component extends React.Component{
-
-    showText() {
-        return (
-            <span>Hello From Routed Component!</span>
-        )
-    }
-
-    render() {
-        return <h1>{this.showText()}</h1>
-    }
-}
+const Component = () => (
+  <h1>I am a component</h1>
+);
 
 export default Component
